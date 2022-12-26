@@ -1,0 +1,110 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  /* border: 1px solid blue; удалить */
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.top {
+  background: url("/portfolio/meditation_products/img/header_bg.png") center
+    no-repeat;
+  margin-bottom: 45px;
+}
+header {
+  height: 650px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.circle {
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.cushions p {
+  text-align: center;
+  font-size: 28px;
+  line-height: 36px;
+  color: #757575;
+}
+
+.gong {
+  height: 777px;
+  background: url("/portfolio/meditation_products/img/gong.png") center
+    no-repeat;
+}
+
+.gong p {
+  padding-top: 56px;
+  text-align: center;
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.space {
+  height: 800px;
+  background: url("/portfolio/meditation_products/img/space.png") center
+    no-repeat;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+}
+.space p {
+  padding-top: 188px;
+  margin-top: 188px;
+}
+
+.space-button {
+  margin-top: 520px;
+  width: 206px;
+  height: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  padding-top: 16px;
+}
+
+.writings {
+  margin-top: 70px;
+  margin-bottom: 35px;
+  font-size: 24px;
+  color: #8c8c8c;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 14px;
+  color: #8c8c8c;
+  margin-bottom: 15px;
+}
+
+.footer {
+  height: 59px;
+  background: #ededed;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 14px;
+  color: #3c3c3c;
+}
+
+.footer p {
+  padding-top: 14px;
+}
