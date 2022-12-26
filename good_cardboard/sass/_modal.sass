@@ -1,0 +1,74 @@
+.overlay
+    position: fixed
+    display: none
+    top: 0
+    width: 100%
+    height: 100%
+    z-index: 3                                  /** положение поверх всех слоёв **/
+    background-color: rgba(0, 0, 0, 0.4)
+
+.popup
+    position: fixed                             /** фиксирование на одном месте **/
+    top: 100px                                  /** смещение сверху вниз на 100px **/
+    left: 50%                                   /** смещение на середину по горизонтали **/
+    transform: translateX(-50%)                 /** центроирование формы **/
+    width: 752px
+    &-close
+        position: absolute                      /** позиционирование относительно формы **/ 
+        right: -20px
+        top: -30px
+        font-size: 35px                         /** размер крестика **/
+        font-weight: 300                        /** толщина крестика **/
+        color: #fff
+        cursor: pointer
+    &-title
+        display: block
+        width: 100%                             /** ширина = ширине формы **/
+        height: 71px
+        margin: 0
+        background-color: $active-color
+        color: $text-color-light
+        text-transform: uppercase
+        line-height: 71px                       /** центрирование надписи по вертикали **/
+        font-size: 21px
+        font-weight: 500
+        text-align: center
+    &-form
+        background: url(../img/modal/popup-form__bg.png) center no-repeat
+        background-size: cover                  /** растягивает bg на весь блок **/
+        padding: 35px 88px 50px 88px
+        color: $text-color-light
+        &-header
+            padding: 0
+            font-size: 30px
+            font-weight: 400
+            line-height: 27px
+            text-align: center
+            span
+                font-size: 24px
+        &__label
+            display: block
+            margin-top: 32px
+            font-size: 20px
+            font-weight: 300
+            line-height: 30px
+        &__input
+            margin-top: 17px
+            width: 365px
+            height: 56px
+            border-radius: 4px
+            border: none
+        &__btn
+            width: 180px
+            height: 56px
+            margin-left: 16px
+            line-height: 22px
+            font-size: 15px
+            font-weight: 500
+            color: $text-color-light
+        &__note
+            margin-top: 9px
+            color: $text-color-light
+            font-size: 14px
+            font-weight: 300
+            line-height: 30px

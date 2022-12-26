@@ -1,0 +1,67 @@
+.features
+    background-color: $bg-color-light
+    padding-top: 49px
+    padding-bottom: 55px
+    &-blocks
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+    &-block
+        display: flex
+        flex-basis: 30%
+        align-items: center
+        padding: 25px 15px
+        color: $text-color-dark
+        background-color: #fff
+        margin-bottom: 30px
+        &__img
+            min-width: 50px
+            margin-right: 10px
+        &__title
+            font-size: 15px
+            font-weight: 700
+            margin-bottom: 5px
+        &__descr
+            font-size: 14px
+            font-weight: 400
+            text-align: justify
+
+.numbers
+    text-align: center
+    margin-bottom: 37px
+    &-block
+        display: inline-block
+        width: 30%
+        vertical-align: top
+        &__title
+            color: $active-color
+            font-size: 36px
+            font-weight: 900
+            margin-bottom: 10px
+            sup
+                font-size: 16px
+        &__text
+            color: $text-color-dark
+            font-size: 16px
+            font-weight: 300
+
+@keyframes featuresUp
+    0%
+        opacity: 0%
+    100%
+        opacity: 100%
+
+.animated_features
+    animation-name: featuresUp
+    animation-duration: 2s
+
+@keyframes spinY
+    0%
+        opacity: 0%
+        transform: rotateY(90deg)
+    100%
+        opacity: 100%
+
+.animated_spinY
+    animation: spinY
+    animation-duration: 2s

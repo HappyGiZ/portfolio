@@ -1,0 +1,19 @@
+
+.clients-block
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+    text-align: center
+    align-items: center
+    flex-wrap: wrap
+    &__img
+        margin-bottom: 10px
+        flex-basis: 24%
+        & img
+            border: 2px solid transperent
+            border-radius: 10px
+            filter: grayscale(100%)
+            transition: 0.5s
+            &:hover
+                filter: none
+                cursor: pointer

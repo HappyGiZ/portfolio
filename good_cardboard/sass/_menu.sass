@@ -1,0 +1,28 @@
+.menu
+    position: fixed
+    min-width: 100%
+    background-color: $bg-color-dark
+    z-index: 5
+    &-container
+        height: 50px
+        width: 100%
+        display: flex
+        justify-content: space-between
+        background-color: $bg-color-dark
+        align-items: center
+    &-link
+        &__button
+            margin-left: 10px
+            margin-right: 10px
+            height: 20px
+        &__line
+            border-left: 1px dashed #4d4d4d
+            height: 25px
+    & a
+        font-size: 12px
+        font-weight: 400
+        text-transform: uppercase
+        text-decoration: none
+        color: $text-color-light
+        &:hover
+            color: $active-color

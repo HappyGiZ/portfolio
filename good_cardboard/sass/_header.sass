@@ -1,0 +1,36 @@
+.header
+    padding-top: 50px
+    &-logo
+        background: url(/my-project/src/img/header/header-logo.png) center no-repeat
+        background-size: 100%
+        width: 191px
+        height: 61px
+        /** padding: 65px 0 15px **/    /** с меню **/
+        padding: 15px 0 /** без меню **/
+        background-color: $bg-color-light
+    &-contacts
+        display: flex
+        justify-content: flex-end
+        align-items: center
+        &__phones
+            display: flex
+        &__phone
+            display: inline-block
+            font-size: 22px
+            margin-right: 13px
+            &:first-child
+                border-right: 1px solid #cfcfd0
+                padding-right: 13px
+
+@keyframes move
+    0%
+        opacity: 0
+        margin-bottom: -100px
+    100%
+        opacity: 1
+        margin-bottom: 0
+.animate
+    animation-name: move
+    animation-delay: 0.5s
+    animation-duration: 1s
+    animation-fill-mode: forwards
