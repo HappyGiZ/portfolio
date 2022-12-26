@@ -1,1 +1,1 @@
-# meditation_products
+Вёрстка по макету
