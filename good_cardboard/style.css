@@ -29,7 +29,7 @@ input:focus {
   content: "";
   display: block;
   height: 6px;
-  background: url("../../../../../my-project/src/img/production/line.png") center no-repeat;
+  background: url("img/production/line.png") center no-repeat;
 }
 
 .button {
@@ -91,7 +91,7 @@ input:focus {
 }
 
 .header-logo {
-  background: url("../../../../../my-project/src/img/header/header-logo.png") center no-repeat;
+  background: url("img/header/header-logo.png") center no-repeat;
   background-size: 100%;
   width: 191px;
   height: 61px;
@@ -158,7 +158,7 @@ input:focus {
 .main {
   padding-top: 65px;
   padding-bottom: 60px;
-  background: #373737 url("../../img/main/mainbg.jpg") center no-repeat;
+  background: #373737 url("img/main/mainbg.jpg") center no-repeat;
   background-size: cover;
   color: #fff;
 }
@@ -280,7 +280,7 @@ input:focus {
 }
 
 .popup-form {
-  background: url("../../img/modal/popup-form__bg.png") center no-repeat;
+  background: url("img/modal/popup-form__bg.png") center no-repeat;
   background-size: cover;
   padding: 35px 88px 50px 88px;
   color: #fff;
@@ -509,7 +509,7 @@ input:focus {
 .offer {
   padding-top: 64px;
   padding-bottom: 69px;
-  background: gray url("../../../../../my-project/src/img/offer/offer-bg.png") center no-repeat;
+  background: gray url("img/offer/offer-bg.png") center no-repeat;
   background-size: cover;
   text-align: center;
   color: #fff;
@@ -637,7 +637,7 @@ input:focus {
 
   .header-logo {
     padding: 0;
-    background: #ff9d00 url("../../../../../my-project/src/img/header/header-logo__small.png") center no-repeat;
+    background: #ff9d00 url("img/header/header-logo__small.png") center no-repeat;
     width: 36px;
     height: 36px;
     border-radius: 5px;
