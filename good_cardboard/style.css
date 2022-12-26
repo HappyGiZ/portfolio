@@ -88,6 +88,7 @@ input:focus {
 
 .header {
   padding-top: 50px;
+  background-color: #f4f4f4;
 }
 
 .header-logo {
