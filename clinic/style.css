@@ -1,0 +1,187 @@
+body {
+  font-family: "PT Sans Caption", sans-serif;
+  font-style: normal;
+}
+
+.header-logo {
+  margin-top: 21.6px;
+}
+
+.header-address {
+  display: flex;
+  margin-top: 15px;
+}
+
+.header-address__street {
+  margin-left: 6.5px;
+}
+
+.city {
+  font-size: 14px;
+  line-height: 21px;
+  color: #364844;
+}
+.street {
+  font-size: 14px;
+  line-height: 21px;
+  color: #868686;
+}
+
+.phone {
+  font-size: 16px;
+  line-height: 24px;
+  color: #364844;
+}
+
+.btn {
+  margin-top: 12px;
+  width: 196px;
+  height: 43px;
+  border-radius: 50px;
+  background-color: #0dbc91;
+  color: #ffffff;
+}
+
+.header-logo {
+  margin-right: 20px;
+}
+
+.lines {
+  color: red;
+}
+
+.menu {
+  height: 43px;
+  padding-top: 10px;
+  background-color: #0dbc91;
+}
+
+.menu__links > p {
+  margin-right: 30px;
+  display: inline;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.main {
+  background: #f8fbfa;
+  margin-bottom: 101px;
+}
+
+.main-text {
+  margin-top: 144px;
+}
+
+.main-text__title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 47px;
+}
+
+.main-text__subtitle {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cabinet {
+  height: 532px;
+  width: 950px;
+  left: 970px;
+  top: 110px;
+  background: url("img/cabinet.png");
+}
+
+.checkup {
+  width: 1140px;
+  height: 440px;
+  margin: 0 auto;
+  color: #364844;
+  background-color: #e2f0ef;
+}
+
+.checkup-pricing__title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 49px;
+  text-transform: uppercase;
+}
+
+.checkup-pricing__subtitle {
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.checkup-pricing__list {
+  font-size: 16px;
+  line-height: 21px;
+}
+.checkup-pricing__list {
+  padding: 0;
+}
+
+.checkup-pricing__list > li {
+  list-style-type: none;
+  margin-bottom: 7px;
+}
+
+.checkup-pricing__dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  background-color: #1fa181;
+  margin-bottom: 2px;
+  margin-right: 6px;
+}
+
+.checkup-pricing__dot ~ p {
+  display: inline;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.checkup-pricing__price {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.checkup-pricing__price > span {
+  font-size: 16px;
+  text-decoration: line-through;
+  color: #868686;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.footer {
+  height: 144px;
+  padding-top: 54px;
+  background: #08664f;
+}
+
+.footer-icons > img {
+  margin-right: 15px;
+}
+
+.test {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  background-color: purple;
+  border-bottom: 200px;
+  border-right: 50px;
+}
+
+#trapezoid {
+  border-top: 100px solid red;
+  border-left: 5px solid transparent;
+  height: 0;
+  width: 100px;
+}
+#trapezoid span {
+  margin-top: -100px;
+  position: absolute;
+}

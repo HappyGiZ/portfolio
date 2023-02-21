@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #52565a;
+  font-family: "Open Sans - Semibold", sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #667a90;
+}
+
+form {
+  padding: 50px;
+}
+
+input {
+  height: 30px;
+  border-radius: 4px;
+  border: 2px solid #d1d9dc;
+  margin-bottom: 37px;
+}
+
+.card-front {
+  width: 488px;
+  height: 293px;
+  padding-left: 32px;
+  padding-top: 28px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: 1px solid #e6e6e6;
+  background-color: #f1f1f1;
+  position: absolute;
+  z-index: 1;
+}
+
+.wrapper {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.pictures {
+  display: inline-block;
+}
+
+.pictures-placeholder {
+  margin-bottom: 24px;
+}
+
+#mir {
+  width: 80px;
+  height: 24px;
+}
+
+.card-front__text {
+  margin-bottom: 6px;
+}
+
+#cardNumber {
+  width: 290px;
+}
+
+#cardMonth {
+  width: 138px;
+}
+
+#cardholderName {
+  width: 424px;
+}
+
+.card-back {
+  width: 488px;
+  height: 293px;
+  padding-top: 36px;
+  border-radius: 10px;
+  border: 1px solid #d7d7d7;
+  background-color: #d9d9d9;
+  position: relative;
+  top: 32px;
+  left: 141px;
+}
+
+.card-back__wrapper {
+  margin-left: 365px;
+}
+
+.card-back__black {
+  width: 488px;
+  height: 65px;
+  background-color: #000000;
+  margin-bottom: 19px;
+}
+
+.card-back__code {
+  margin-bottom: 10px;
+  color: #52565a;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+#code {
+  width: 90px;
+  margin-bottom: 10px;
+}
+
+.card-back__text {
+  color: #52565a;
+  font-size: 12px;
+}
+
+#payAccept {
+  margin-top: 50px;
+  width: 200px;
+  margin-left: 144px;
+}

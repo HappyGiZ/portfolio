@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <form action="ok.html">
+    <!-- card front -->
+    <div class="card-front">
+      <div class="wrapper">
+        <p class="card-front__text">Номер карты</p>
+        <input type="number" name="" id="cardNumber">
+
+        <p class="card-front__text">Срок действия карты</p>
+        <input type="number" name="" id="cardMonth">
+      </div>
+
+      <div class="pictures">
+        <div class="pictures-placeholder">
+          <img src="img/vi.png" alt="Visa">
+
+        </div>
+        <div class="pictures-placeholder">
+          <img src="img/mc.png" alt="MasterCard" id="asterCard">
+
+        </div>
+        <div class="pictures-placeholder">
+          <img src="img/Mir-01.png" alt="Mir" id="mir">
+        </div>
+      </div>
+
+      <p class="card-front__text">Имя держателя карты</p>
+      <input type="text" name="" id="cardholderName">
+    </div>
+
+    <!-- card back -->
+    <div class="card-back">
+      <div class="card-back__black"></div>
+      <div class="card-back__wrapper">
+        <div class="card-back__code">CVC/CVV</div>
+        <input type="number" id="code">
+        <div class="card-back__text">Последние<br>3 цифры</div>
+      </div>
+    </div>
+
+    <input type="submit" name="submit" id="payAccept" value="Оплатить">
+  </form>
+</body>
+
+</html>

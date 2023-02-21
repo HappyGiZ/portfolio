@@ -25,6 +25,7 @@ input:focus {
 }
 
 .section-title::after {
+  margin-left: 100px;
   margin-top: 12px;
   content: "";
   display: block;
