@@ -129,16 +129,27 @@ header {
 .gong-button {
   width: 105px;
 }
-.reviews-cards__block {
-  text-align: center;
+
+.reviews-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  padding: 0 50px;
+  gap: 50px;
+  margin-bottom: 75px;
 }
 
 .reviews-card {
-  display: inline-block;
+  display: grid;
   text-align: center;
-  border: 1px solid red;
-  width: 350px;
-  margin: 0 20px 10px;
+}
+
+.reviews-card__img {
+  margin-bottom: 10px;
+}
+
+.reviews-card__text {
+  font-size: 12px;
+  color: #848484;
 }
 
 .space {
@@ -151,7 +162,6 @@ header {
 }
 .space-description {
   padding-top: 188px;
-  margin-top: 188px;
 }
 
 .space-button {
@@ -166,6 +176,43 @@ header {
   color: #8c8c8c;
 }
 
+.subscribe-form {
+  padding-top: 100px;
+  height: 320px;
+  color: #9b9b9b;
+  text-align: center;
+}
+
+.subscribe-form__label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.subscribe-form__input {
+  display: block;
+  width: 277px;
+  height: 27px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #9b9b9b;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.subscribe-form__input::placeholder {
+  color: #9b9b9b;
+}
+
+.subscribe-form__button {
+  width: 150px;
+  font-size: 16px;
+  padding-top: 5px;
+  background-color: #fff;
+  border: 1px solid #9b9b9b;
+  color: #848484;
+}
+
 .about {
   display: flex;
   justify-content: space-between;
@@ -176,15 +223,11 @@ header {
   margin-bottom: 15px;
 }
 
-.footer {
-  height: 59px;
+.shipping {
+  height: 60px;
+  padding-top: 24px;
   background: #ededed;
   font-size: 14px;
   text-align: center;
-  padding-top: 14px;
   color: #3c3c3c;
-}
-
-.footer p {
-  padding-top: 14px;
 }
