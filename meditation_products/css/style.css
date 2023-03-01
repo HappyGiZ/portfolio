@@ -30,6 +30,12 @@ body {
   cursor: pointer;
 }
 
+.gong-button:hover,
+.space-button:hover {
+  background-color: #fff;
+  color: darkblue;
+}
+
 .top {
   height: 720px;
   background: url("/portfolio/meditation_products/img/header_bg.png") center
@@ -48,6 +54,7 @@ header {
   font-weight: bold;
   display: inline-block;
   margin-left: 35px;
+  user-select: none;
 }
 
 .header-menu {
@@ -68,6 +75,10 @@ header {
   cursor: pointer;
 }
 
+.header-menu__link:hover {
+  text-decoration: underline;
+}
+
 .header-menu__circle {
   width: 24px;
   height: 24px;
@@ -77,24 +88,28 @@ header {
   margin-left: 20px;
 }
 
-.cushions-cards {
+.cushions-cards,
+.writings-cards {
   display: flex;
   justify-content: center;
   margin-bottom: 25px;
   text-align: center;
 }
 
-.cushions-cards__card {
+.cushions-cards__card,
+.writings-cards__card {
   margin: 0 18px;
 }
 
-.cushions-cards__img {
+.cushions-cards__img,
+.writings-cards__img {
   height: 504px;
   width: 386px;
   margin-bottom: 25px;
 }
 
-.cushions-cards__description {
+.cushions-cards__button,
+.writings-cards__button {
   font-size: 14px;
   color: #757575;
   text-align: center;
@@ -169,15 +184,16 @@ header {
   width: 206px;
 }
 
-.writings {
+.writings-title {
   margin-top: 70px;
+  text-align: center;
   margin-bottom: 35px;
   font-size: 24px;
   color: #8c8c8c;
 }
 
 .subscribe-form {
-  padding-top: 100px;
+  padding-top: 90px;
   height: 320px;
   color: #9b9b9b;
   text-align: center;
@@ -207,10 +223,18 @@ header {
 .subscribe-form__button {
   width: 150px;
   font-size: 16px;
-  padding-top: 5px;
+  padding-top: 4px;
   background-color: #fff;
   border: 1px solid #9b9b9b;
   color: #848484;
+}
+
+.cushions-cards__button:hover,
+.writings-cards__button:hover,
+.subscribe-form__button:hover {
+  background-color: #848484a4;
+  border-color: #848484a4;
+  color: #fff;
 }
 
 .about {
