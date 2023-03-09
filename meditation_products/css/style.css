@@ -28,6 +28,7 @@ body {
   text-align: center;
   margin: 0 auto;
   cursor: pointer;
+  user-select: none;
 }
 
 .gong-button:hover,
@@ -86,6 +87,10 @@ header {
   border-radius: 100%;
   display: inline-block;
   margin-left: 20px;
+}
+
+.cushions {
+  margin-bottom: 25px;
 }
 
 .cushions-cards,
@@ -254,4 +259,20 @@ header {
   font-size: 14px;
   text-align: center;
   color: #3c3c3c;
+}
+
+.cushions-nav {
+  text-align: center;
+}
+
+.prev,
+.next {
+  width: 100px;
+  margin: 0 10px;
+  display: inline-block;
+  padding: 8px 10px 0;
+}
+
+.hide {
+  display: none;
 }
