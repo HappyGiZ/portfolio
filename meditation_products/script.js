@@ -14,28 +14,24 @@ function showCards(i = 0) {
 
 
 hideCards();
-showCards(0);
+showCards();
 
 prev.addEventListener('click', () => {
   if (counter > 0) {
     counter--;
-    hideCards();
-    showCards(counter);
   } else {
     counter = cards.length - 1;
-    hideCards();
-    showCards(counter);
   }
+  hideCards();
+  showCards(counter);
 });
 
 next.addEventListener('click', () => {
   if (counter < cards.length - 1) {
     counter++;
-    hideCards();
-    showCards(counter);
   } else {
     counter = 0;
-    hideCards();
-    showCards(counter);
   }
+  hideCards();
+  showCards(counter);
 });
